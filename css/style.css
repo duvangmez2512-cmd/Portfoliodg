@@ -29,6 +29,8 @@ h1 {
     color: var(--titles);
     font-size: 4rem;
     font-family: cursive;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero__text {
