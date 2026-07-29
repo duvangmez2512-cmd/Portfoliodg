@@ -9,6 +9,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+header{
+background: #026352;
+background: radial-gradient(circle, rgba(2, 99, 82, 0.62) 0%, rgba(88, 148, 232, 1) 100%);
+    
+}
 
 html{
     font-size: 62.5%;
@@ -18,18 +23,21 @@ html{
 
 body {
     /* background-color: var(--bakcground); */
-    background-color:rgba(51, 217, 217, 0.678);
+    /* background-color:rgba(51, 217, 217, 0.678); */
+    background: #06055c;
+    background: linear-gradient(90deg, rgba(6, 5, 92, 1) 0%, rgba(31, 31, 224, 1) 38%, rgba(0, 212, 255, 1) 100%);
     color: white;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     
+    
 }
 main {
     flex: 1;
     color: var(--titles) ;
+    
    
-
 }
 
 
@@ -60,4 +68,5 @@ footer {
     background-color: rgb(21, 16, 16);
     padding: 10px;
     text-align: center;
+    
 }
