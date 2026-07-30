@@ -16,7 +16,7 @@
 .hero__img {
     width: 500px;
     height: 500px;
-    border-radius: 40%;
+    border-radius: 30%;
     object-fit: cover;
     object-position: center;
     margin-top: 3rem;
@@ -36,6 +36,7 @@ h1 {
 
 
 .hero__text {
+    
     color: var(--textos);
     font-size: 2.3rem;
     padding-bottom: 20px;
