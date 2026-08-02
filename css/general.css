@@ -31,17 +31,21 @@ body {
     min-height: 100vh;
     
     
+    
 }
 main {
     flex: 1;
     color: var(--titles) ;
 }
 
-.portada{
+/* .portada{
+    gap:30px; 
     display: flex;
     align-items: center;
     justify-content: center;
-}
+    
+    
+} */
 
 
 

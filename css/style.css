@@ -11,17 +11,24 @@
     justify-content: center;
     align-items: center;
     gap: 30px;
+    transition: .4 ease-in-out;
+
 }
 
 .hero__img {
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: 300px;
+    display: flex;
     border-radius: 30%;
     object-fit: cover;
     object-position: center;
     margin-top: 3rem;
     border: 4px solid  rgb(50, 59, 191);
     box-shadow: 30px 30px 100px rgba(65, 1, 91, 0.979);
+   
+    
+    
+
     
 }
 
@@ -35,9 +42,18 @@ h1 {
 
 
 
+
 .hero__text {
-    
     color: var(--textos);
     font-size: 2.3rem;
     padding-bottom: 20px;
+    /* background-color: red; */
+    object-fit: cover;
+    margin-top: 4rem;
+    margin: 20px;
+    border: 4px solid  rgb(50, 59, 191);
+    box-shadow: 30px 30px 100px rgba(65, 1, 91, 0.979);
+    
+    
+    
 }
